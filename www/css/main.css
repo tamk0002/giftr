@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css?family=Kaushan+Script");
+
+*{
+    /**padding: 0;
+    margin: 0;
+    box-sizing: border-box; **/
+}
+:root{
+    font-size: calc(1.5vh + 1.5vw + 1vmin);
+}
+body{
+    font-size: 1.0rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+    height: 100vh;
+}
+
+span.name{
+    float:left;
+    width: 60%;
+    font-size: 0.9rem;
+    /**padding: 0.5rem 0;
+    margin: 0; **/
+    overflow: hidden;
+    color: #333;
+}
+span.dob{
+    font-size: 0.7rem;
+    color: #666;
+}
+.midline{
+    position: absolute;
+    top: 40%;
+    right: 5%;
+}
+.bar{
+    background-color: rebeccapurple;
+}
+.title {
+    color: white;
+    font-family: 'kaushan script';
+    font-size: 1.5rem;
+}
+#addPerson{
+    color: white;
+}
+#savePerson{
+    background-color: rebeccapurple;
+}
+.name{
+    color: rebeccapurple;
+}
+#backBtn{
+    color: white;
+}
+#addidea{
+    color: white;
+}
+#XBtn{
+    color: white;
+}
+#saveGift{
+    background-color: rebeccapurple;
+}
+.giftIdea{
+    color: rebeccapurple;
+}
+.giftURL{
+    color: rebeccapurple;
+}
+.trashicon {
+    color: rebeccapurple;
+}
+
