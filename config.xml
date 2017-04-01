@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="ca.edumedia.tamk0002" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>tamk0002</name>
+    <name>giftR - tamk0002</name>
     <description>
         MAD9022 Midterm - GIFTR
         March 31st 2017
@@ -24,9 +24,22 @@
     <platform name="android">
         <allow-intent href="market:*" />
         
-        <splash density="port-hdpi" src="res/screen/giftr-splashscreen.png" />
+        <splash density="port-mdpi" src="res/screen/giftr splashscreens_pMDPI.png"/>
+        <splash density="port-hdpi" src="res/screen/giftr splashscreens_pHDPI.png"/>
+        <splash density="port-xhdpi" src="res/screen/giftr splashscreens_pXHDPI.png"/>
+        <splash density="port-xxhdpi" src="res/screen/giftr splashscreens_pXXHDPI.png"/>
+        <splash density="port-xxxhdpi" src="res/screen/giftr splashscreens_pXXXHDPI.png"/>
+        <splash density="land-mdpi" src="res/screen/giftr splashscreens_lsMDPI.png"/>
+        <splash density="land-hdpi" src="res/screen/giftr splashscreens_lsHDPI.png"/>
+        <splash density="land-xhdpi" src="res/screen/giftr splashscreens_lsXHDPI.png"/>
+        <splash density="land-xxhdpi" src="res/screen/giftr splashscreens_lsXXHDPI.png"/>
+        <splash density="land-xxxhdpi" src="res/screen/giftr splashscreens_lsXXXHDPI.png"/>
         
-        <icon density="hdpi" src="res/icons/giftr-icon.png" />
+        <icon density="mdpi" src="res/icons/giftr icons_MDPI.png"/>
+        <icon density="hdpi" src="res/icons/giftr icons_HDPI.png"/>
+        <icon density="xhdpi" src="res/icons/giftr icons_XHDPI.png"/>
+        <icon density="xxhdpi" src="res/icons/giftr icons_XXHDPI.png"/>
+        <icon density="xxxhdpi" src="res/icons/giftr icons_XXXHDPI.png"/>
         
     </platform>
     <platform name="ios">
